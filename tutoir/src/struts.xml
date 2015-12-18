@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.multipart.saveDir" value="/tmp"></constant>
+	<package name="helloworld" namespace="/" extends="struts-default">
+       <!--  -->
+       <action name="login">
+       		<result name="login">/login.jsp</result>
+       </action>
+       <!--  -->
+       <action name="LoginCheck" class="com.fzu.service.LoginCheck" >
+       		<result name="success">/index.jsp</result>
+       		<result name="pinfo">/pinfo.jsp</result>
+       		<result name="tinfo">/tinfo.jsp</result>
+       		<result name="login">/login.jsp</result>
+       </action>
+       <!--  -->
+       <action name="registerCheck" class="com.fzu.service.registerCheck">
+    		<result name="parent">/reg_parents.jsp</result>
+    		<result name="tutor">/reg_teacher.jsp</result>
+    	</action>
+    	<!--  -->
+    	<action name="LognameCheck" class="com.fzu.service.LognameCheck"></action>
+   	 	<!--  -->
+   	 	<action name="parentCheck" class="com.fzu.service.parentCheck">
+   	 		<result name="success">/login.jsp</result>
+   	 	</action>
+   	 	<!--  -->
+   	 	<action name="tutorCheck" class="com.fzu.service.tutorCheck">
+   	 		<result name="success">/login.jsp</result>
+   	 	</action>
+		
+		<!--  -->
+   	 	<action name="Update" class="com.fzu.service.Update"></action>
+		<!--  -->
+   	 	<action name="Query" class="com.fzu.service.Query"></action>
+   	 	<!--  -->
+   	 	<action name="managerCheck" class="com.fzu.service.managerCheck">
+   	 		<result name="success">/manager/index.jsp</result>
+   	 		<result name="fail">/manager/manager.jsp</result>
+   	 	</action>
+		
+		<action name="ManagerQuery" class="com.fzu.service.ManagerQuery"></action>
+   		<action name="TutorQuery" class="com.fzu.service.TutorQuery">
+   			<result name="success">/result.jsp</result>
+   		</action>
+   		<action name="QueryPerson" class="com.fzu.service.QueryPerson">
+   			<result name="success">/person.jsp</result>
+   		</action>
+    </package>
+</struts>    

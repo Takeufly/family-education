@@ -1,0 +1,54 @@
+.main{
+	background:#5DAE55;
+}
+.start{
+	height:180px;
+}
+.img6{
+	margin-top:100px;
+	width:65px;
+    position:absolute;
+	left:35%;
+	cursor:pointer;
+}
+.parents{
+	margin-right:5px;
+	background:#BFEFED;
+	height:300px;
+}
+.teacher{
+	background:#BFEFED;
+    height:300px;
+}
+.img1{
+	margin-top:50px;
+	position:absolute;
+	left:31%;
+	cursor:pointer;
+}
+.img2{
+	margin-top:50px;
+	position:absolute;
+	left:31%;
+	cursor:pointer;
+}
+.button1{
+	width:100px;
+	margin:0 auto;
+	position:relative;
+	top:70%;
+	cursor:pointer;
+}
+.button1 button{
+	background:#32B16C;
+}
+.button2{
+	width:100px;
+	margin:0 auto;
+	position:relative;
+	top:70%;
+	cursor:pointer;
+}
+.button2 button{
+	background:#F6B37F;	
+}

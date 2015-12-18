@@ -1,0 +1,84 @@
+.first{
+	height:65px;
+	width:100%;
+	background:#efefef;
+	
+}
+.img-circle{
+	width:65px;
+    position:absolute;
+	left:15%;
+	cursor:pointer;
+}
+.return{
+	position:absolute;
+	left:20%;
+	cursor:pointer;
+	font-size:20px;
+	margin:15px;
+}
+.col-md-8{
+	background:white;
+}
+.bgimg{
+	top:10px;
+	left:-40px;
+}
+.second{
+	width:1200px;
+	margin:0 auto;
+}
+.img-rounded{
+	width:1200px;
+	height:550px;
+}
+
+
+.login_dialog{
+	position:relative;/*位置属性absolute fixed*/
+	z-index:30;/*投影*/
+	top:50px;
+}
+
+.login{
+	height:400px;
+	background:white;
+	border-radius:10px;
+}
+.text-center{
+	font-size:25px;
+}
+.third{
+	height:55px;
+	padding-top:20px;
+	background:white;
+}
+.user1{
+    width:250px;
+	margin:15px auto 0 auto;
+}
+.word2{
+    width:250px;
+	margin:15px auto;
+}
+.checkbox{
+	margin:0 0 0 50px;
+}
+.fgp{
+	position:absolute;
+	left:65%;
+	cursor:pointer;
+}
+.fgp:hover{
+	text-decoration:underline;
+}
+.register{
+	margin:10px;
+}
+.button{
+	width:250px;
+	margin:0 auto;
+}
+.text-right{
+	cursor:pointer
+}
