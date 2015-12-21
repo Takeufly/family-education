@@ -1,0 +1,91 @@
+.main{
+	background:#5DAE55;
+}
+.start{
+	height:130px;
+}
+.img6{
+	margin-top:50px;
+	width:65px;
+    position:absolute;
+	left:35%;
+	cursor:pointer;
+}
+.content{
+	background:#BFEFED;
+	height:850px;
+}
+.explain{
+	height:48px;
+	width:120px;
+	background:#32B16C;
+	margin-top:45px;
+	margin-bottom:20px;
+	position:relative;
+	left:26%;
+}
+.word{
+	display:block;
+	font-size:25px;
+	margin-top:5px;
+	line-height:48px;
+	text-align:center;
+}
+.case1{
+	width:320px;
+	margin-bottom:25px;
+	position:relative;
+	left:14%
+}
+
+.case1 label{
+	display:inline;
+	font-size:15px;
+	position:relative
+}
+.form-control{
+	display:inline;
+	width:250px;
+}
+.sex{
+	margin-bottom:22px;
+}
+.sex1{
+	font-size:15px;
+	font-weight:bold;
+	position:relative;
+	left:20%;
+}
+.man{
+	position:relative;
+	left:21%;
+}
+.woman{
+	position:relative;
+	left:23%;
+}
+.checkbox{
+	position:relative;
+	left:26%;
+	margin-bottom:15px;
+}
+.button{
+	width:120px;
+	position:relative;
+	left:26%;
+	margin-bottom:15px;
+}
+.button1{
+	background:#5DAE55;
+}
+.last1{
+	font-size:15px;
+	position:relative;
+	left:26%;
+}
+.login{
+	font-size:20px;
+	position:relative;
+	left:26%;
+	cursor:pointer;
+}
